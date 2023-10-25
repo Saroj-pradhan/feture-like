@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+}
+.card{
+    position: relative;
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+   overflow: hidden;
+  
+}
+.card img{
+     height: 100%;
+    width: 100%;
+    border-radius: 10px;
+object-fit: cover;
+object-position: top;
+    
+}
+.card i{
+position: absolute;
+top: 50%;
+left: 50%; 
+transform: translate(-50%, -50%) scale(0);
+font-size: 70px;
+opacity: 0.8;
+transition: all ease 0.4s;
+}
